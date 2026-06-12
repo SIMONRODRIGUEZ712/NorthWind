@@ -2,8 +2,7 @@
 (
 	[RegionID] [int] NOT NULL,
 	[RegionDescription] [nchar](50) NOT NULL,
-	[rowversion] [timestamp] NULL,
-	[RegionDescription2] [nchar](50)
+	[rowversion] [timestamp] NULL
  CONSTRAINT [PK_Region] PRIMARY KEY NONCLUSTERED 
 (
 	[RegionID] ASC
